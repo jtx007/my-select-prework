@@ -1,3 +1,6 @@
 def my_select(collection)
- # your code here!
+new_array = []
+new_array << yield(collection)
+new_array
+
 end
