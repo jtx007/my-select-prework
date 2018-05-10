@@ -1,6 +1,6 @@
 def my_select(collection)
 new_array = []
-new_array << yield(collection)
+if collection == yield
+new_array << yield
 new_array
-
 end
